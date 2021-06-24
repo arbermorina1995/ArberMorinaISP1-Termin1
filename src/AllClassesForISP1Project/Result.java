@@ -38,7 +38,7 @@ public class Result {
         this.letterGrade= letterGrade;
     }
 
-    
+
 
 
 

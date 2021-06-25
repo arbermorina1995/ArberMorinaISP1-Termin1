@@ -19,14 +19,17 @@ public class Student {
     }
 
     public void setStudentID(String studentID) {
+
         this.studentID = studentID;
     }
 
     public String getName () {
+
         return name;
 
     }
     public void setName (String name) {
+
         this.name = name;
     }
 
@@ -39,7 +42,9 @@ public class Student {
         this.name= name;
     }
 
-    // TODO: 2021-06-22  checka uml dokumentation för att se hur man gör associationsklass i java, se t1 kurs mjukvaru
+    // TODO: Kolla hur du ska skapa metoder genom texten
+    //  2021-06-24  se video utube på mvc och crud for application sen se också how to design using
+    //todo: javafx eller windowsform ngt av de
 
 
 

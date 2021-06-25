@@ -17,16 +17,19 @@ public class Result {
     }
 
     public void setResult(double result) {
+
         this.result= result;
 
     }
 
     public String getLetterGrade (){
+
         return letterGrade;
 
     }
 
     public void setLetterGrade(String letterGrade){
+
         this.letterGrade = letterGrade;
 
     }

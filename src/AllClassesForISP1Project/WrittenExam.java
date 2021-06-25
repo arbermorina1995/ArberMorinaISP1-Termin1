@@ -21,46 +21,56 @@ public class WrittenExam {
     //getters and setters for the above attributes of this class
 
     public String getExamID (){
+
         return examID;
     }
 
     public void setExamID (String examID) {
+
         this.examID = examID;
 
     }
 
     public int getDate(){
+
         return date;
 
     }
 
     public void setDate(int date){
+
         this.date= date;
 
     }
     public String getLocation(){
+
         return location;
 
     }
     public void setLocation(String location){
+
         this.location= location;
 
     }
 
     public int getTime (){
+
         return time;
 
     }
     public void setTime(int time){
+
         this.time = time;
 
     }
 
     public int getMaxPoints() {
+
         return maxPoints;
     }
 
     public void setMaxPoints(int maxPoints) {
+
         this.maxPoints = maxPoints;
     }
 

@@ -12,7 +12,7 @@ public class WrittenExam {
 
     //below is writtenExam can have alot of students
     //also belonging to one course, this means that the two below are classes associated with this class writtenEx
-    private Student [] students;
+    private Student[] students;
     private Course course;
 
 

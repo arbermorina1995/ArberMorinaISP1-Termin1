@@ -10,7 +10,7 @@ public class Program {
         Student s3 = new Student("li1991mo-s", "Linda Morina");
         Student s4 = new Student("ek1969mo-s","Ekrem Morina");
 
-        Student [] students = {s1,s2,s3,s4};
+        Student[] students = {s1,s2,s3,s4};
 
         WrittenExam we = new WrittenExam("Mjukvaruarkitektur",20,"Lund",8, 100);
         Course sysa14 = new Course("Sysa14", "Programkonstruktion",4);

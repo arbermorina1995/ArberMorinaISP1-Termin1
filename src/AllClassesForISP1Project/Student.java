@@ -1,5 +1,7 @@
 package AllClassesForISP1Project;
 
+import AllClassesForISP1Project.WrittenExam;
+
 public class Student {
 
     //localvariables private
@@ -8,7 +10,7 @@ public class Student {
     private String name;
 
     //
-    private WrittenExam [] writtenExams;
+    private WrittenExam[] writtenExams;
 
 
 
@@ -42,7 +44,7 @@ public class Student {
         this.name= name;
     }
 
-    // TODO: Kolla hur du ska skapa metoder genom texten
+    // TODO: Kolla hur du ska skapa metoder genom texten, sök utube how to create methods for crud
     //  2021-06-24  se video utube på mvc och crud for application sen se också how to design using
     //todo: javafx eller windowsform ngt av de
 

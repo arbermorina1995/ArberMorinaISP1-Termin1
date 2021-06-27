@@ -86,6 +86,9 @@ public class WrittenExam {
     }
 
 
+    // TODO: 2021-06-27 lägg default contsructor innan getters and setters, create araylist for students  
+    // TODO: 2021-06-27 lägg till metoderna sen, find, add, remove.  
+
 
 
 

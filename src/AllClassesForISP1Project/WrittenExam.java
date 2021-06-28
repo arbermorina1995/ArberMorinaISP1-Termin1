@@ -1,5 +1,7 @@
 package AllClassesForISP1Project;
 
+import java.util.ArrayList;
+
 public class WrittenExam {
 
     //localvariables
@@ -10,10 +12,21 @@ public class WrittenExam {
     private int time;
     private int maxPoints;
 
-    //below is writtenExam can have alot of students
-    //also belonging to one course, this means that the two below are classes associated with this class writtenEx
-    private Student[] students;
+    //constructor for this class with attributes as inparameters
+
+    public WrittenExam (String examID, int date, String location, int time, int maxPoints){
+        this.examID = examID;
+        this.date= date;
+        this.location= location;
+        this.time= time;
+        this.maxPoints = maxPoints;
+
+    }
+    //association 1: a WrittenExam must belong to a course, and to one course only.
     private Course course;
+
+    //assocation 2: a writtenExam may have been done by many students.
+    private ArrayList<Student> students = new ArrayList<>();
 
 
 
@@ -74,16 +87,7 @@ public class WrittenExam {
         this.maxPoints = maxPoints;
     }
 
-    //constructor for this class with attributes as inparameters
 
-    public WrittenExam (String examID, int date, String location, int time, int maxPoints){
-        this.examID = examID;
-        this.date= date;
-        this.location= location;
-        this.time= time;
-        this.maxPoints = maxPoints;
-
-    }
 
 
     // TODO: 2021-06-27 lägg default contsructor innan getters and setters, create araylist for students  

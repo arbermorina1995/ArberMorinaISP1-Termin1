@@ -19,10 +19,11 @@ public class Student {
     }
 
     //down is due to many to many association between students and writtenexams.
-
-
-
+    // and other associations after.
     private ArrayList<WrittenExam> writtenExams = new ArrayList<WrittenExam>();
+
+
+
 
     // some methods according to CRUD.
 

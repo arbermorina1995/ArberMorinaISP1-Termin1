@@ -10,6 +10,12 @@ public class Result {
 
     //getters and setter for these attributes
 
+    //the constructor for this class
+    public Result (double result, String letterGrade){
+        this.result = result;
+        this.letterGrade= letterGrade;
+    }
+
 
     public double getResult (){
 
@@ -34,12 +40,6 @@ public class Result {
 
     }
 
-
-    //the constructor for this class
-    public Result (double result, String letterGrade){
-        this.result = result;
-        this.letterGrade= letterGrade;
-    }
 
 
 

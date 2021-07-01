@@ -25,13 +25,27 @@ public class WrittenExam {
     //association 1: a WrittenExam must belong to a course, and to one course only.
     private Course course;
 
+
+
     //assocation 2: a writtenExam may have been done by many students.
     private ArrayList<Student> students = new ArrayList<>();
 
+    public ArrayList<Student> getStudents() {
+        return students;
+    }
 
-
+    public void setStudents(ArrayList<Student> students) {
+        this.students = students;
+    }
 
     //getters and setters for the above attributes of this class
+    public Course getCourse(){
+        return course;
+    }
+    public void setCourse(Course course){
+        this.course = course;
+    }
+
 
     public String getExamID (){
 

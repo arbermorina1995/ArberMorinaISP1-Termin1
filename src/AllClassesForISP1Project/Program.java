@@ -18,6 +18,7 @@ public class Program {
         System.out.println(students);
 
 
+        // TODO: 2021-07-01 kolla mats ppw 160 och 165 om associationsklasser.
 
 
 

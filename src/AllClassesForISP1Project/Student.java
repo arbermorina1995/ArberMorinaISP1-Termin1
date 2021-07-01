@@ -57,10 +57,12 @@ public class Student {
     //getters and setters for above attributes and for the many to many association
 
     public ArrayList<WrittenExam> getWrittenExams() {
+
         return writtenExams;
     }
 
     public void setWrittenExams(ArrayList<WrittenExam> writtenExams) {
+
         this.writtenExams = writtenExams;
     }
 

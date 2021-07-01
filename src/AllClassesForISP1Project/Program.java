@@ -19,6 +19,9 @@ public class Program {
 
 
         // TODO: 2021-07-01 kolla mats ppw 160 och 165 om associationsklasser.
+        // TODO: 2021-07-01 nu finns alla getters and setters för attributer och associationer,
+        // TODO: 2021-07-01 kolla nu på ppw 165 o se om du kan lösa associationsklassen!
+        
 
 
 

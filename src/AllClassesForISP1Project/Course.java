@@ -17,7 +17,6 @@ public class Course {
         this.credits= credits;
 
     }
-    //
 
 
     //a course has many writtensExams, while a writtenExam must belong to a course, and one course only.
@@ -54,6 +53,17 @@ public class Course {
 
 
     //getters and setters for our attributes
+
+
+    // getters and setts for this below is to the association from course to writtenExam.
+    public ArrayList<WrittenExam> getWrittenExams() {
+        return writtenExams;
+    }
+
+    public void setWrittenExams(ArrayList<WrittenExam> writtenExams) {
+        this.writtenExams = writtenExams;
+    }
+
 
     public String getCourseCode() {
 

@@ -57,10 +57,12 @@ public class Course {
 
     // getters and setts for this below is to the association from course to writtenExam.
     public ArrayList<WrittenExam> getWrittenExams() {
+
         return writtenExams;
     }
 
     public void setWrittenExams(ArrayList<WrittenExam> writtenExams) {
+
         this.writtenExams = writtenExams;
     }
 

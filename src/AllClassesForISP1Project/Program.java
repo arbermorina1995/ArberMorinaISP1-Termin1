@@ -15,14 +15,14 @@ public class Program {
         WrittenExam we = new WrittenExam("Mjukvaruarkitektur",20,"Lund",8, 100);
         Course sysa14 = new Course("Sysa14", "Programkonstruktion",4);
 
-        System.out.println(students);
+
 
         // TODO: 2021-07-05 Nu har jag gjort så att jag idag 5/7 fixade associationsklassen 
         // TODO: 2021-07-05 detta gjorde jag genom implementera i både writtenexam klass och student klass då associations 
         //klassen är mellan dom två klasserna.
         // TODO: 2021-07-05  skapade linkedList<Result> results; i både written och student.
         // se koden.
-        // todo---> nu kolla tutorial mvc och crud och java form. metoder också ifall de e klara. 
+        // todo---> nu kolla tutorial mvc och crud och java form. metoder också ifall de e klara.
 
 
 

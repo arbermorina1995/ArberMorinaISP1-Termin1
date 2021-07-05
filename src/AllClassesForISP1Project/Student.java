@@ -1,6 +1,7 @@
 package AllClassesForISP1Project;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 
 
 public class Student {
@@ -10,12 +11,19 @@ public class Student {
     private String studentID;
     private String name;
 
+    //associationclass below
+
+
+
+    private LinkedList<Result> results;
+
 
     //constructor with inparameters
 
     public Student (String studentID, String name){
         this.studentID= studentID;
         this.name= name;
+        this.setResults(new LinkedList<Result>());
     }
 
     //down is due to many to many association between students and writtenexams.
@@ -54,7 +62,15 @@ public class Student {
 
     }
 
-    //getters and setters for above attributes and for the many to many association
+    //getters and setters for above attributes and for the many to many association, also for the associationclass
+
+    public LinkedList<Result> getResults() {
+        return results;
+    }
+
+    public void setResults(LinkedList<Result> results) {
+        this.results = results;
+    }
 
     public ArrayList<WrittenExam> getWrittenExams() {
 
@@ -89,10 +105,6 @@ public class Student {
 
 
 
-
-    // TODO: Kolla hur du ska skapa metoder genom texten, sök utube how to create methods for crud
-    //  2021-06-24  se video utube på mvc och crud for application sen se också how to design using
-    //todo: javafx eller windowsform ngt av de
 
 
 

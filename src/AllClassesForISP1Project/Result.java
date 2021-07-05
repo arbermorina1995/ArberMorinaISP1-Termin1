@@ -8,12 +8,38 @@ public class Result {
     private String letterGrade;
 
 
-    //getters and setter for these attributes
+
+
+    //this asociationsclass is associated with downbelow classes.
+    private Student student;
+    private WrittenExam writtenExam;
 
     //the constructor for this class
     public Result (double result, String letterGrade){
         this.result = result;
         this.letterGrade= letterGrade;
+    }
+
+
+
+    //getters and setter for these attributes
+    public WrittenExam getWrittenExam() {
+        return writtenExam;
+    }
+
+    public void setWrittenExam(WrittenExam writtenExam) {
+        this.writtenExam = writtenExam;
+    }
+
+
+
+
+    public Student getStudent() {
+        return student;
+    }
+
+    public void setStudent(Student student) {
+        this.student = student;
     }
 
 

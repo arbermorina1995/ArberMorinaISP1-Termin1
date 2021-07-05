@@ -1,8 +1,14 @@
 package AllClassesForISP1Project;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 
 public class WrittenExam {
+
+
+
+    private LinkedList<Result> results;
+
 
     //localvariables
 
@@ -20,32 +26,49 @@ public class WrittenExam {
         this.location= location;
         this.time= time;
         this.maxPoints = maxPoints;
+        this.setResults(new LinkedList<Result>());
+
 
     }
+
     //association 1: a WrittenExam must belong to a course, and to one course only.
     private Course course;
 
+   //below get and set the main attribut for course, we wanna get
 
 
     //assocation 2: a writtenExam may have been done by many students.
     private ArrayList<Student> students = new ArrayList<>();
 
     public ArrayList<Student> getStudents() {
+
         return students;
     }
 
     public void setStudents(ArrayList<Student> students) {
+
         this.students = students;
+    }
+    //get set for associationclass between writtenExan (result) and student, result is the associationclass.
+    public LinkedList<Result> getResults() {
+        return results;
+    }
+
+    public void setResults(LinkedList<Result> results) {
+        this.results = results;
     }
 
     //getters and setters for the above attributes of this class
+
+
     public Course getCourse(){
+
         return course;
     }
     public void setCourse(Course course){
+
         this.course = course;
     }
-
 
     public String getExamID (){
 
@@ -101,11 +124,6 @@ public class WrittenExam {
         this.maxPoints = maxPoints;
     }
 
-
-
-
-    // TODO: 2021-06-27 lägg default contsructor innan getters and setters, create araylist for students  
-    // TODO: 2021-06-27 lägg till metoderna sen, find, add, remove.  
 
 
 

@@ -1,9 +1,41 @@
 package AllClassesForISP1Project;
+import Model.Course;
+import Model.Student;
+import Model.WrittenExam;
+
+import java.awt.Color;
+import javax.swing.ImageIcon;
+import javax.swing.*;
 
 public class Program {
 
 
-    public static void mainMethod(){
+    public static void main (String[] args){
+
+        //down below is the JFrame which is a GUI window with added components
+
+        JFrame frame = new JFrame(); // this creates our frame --> boilerplate (standard code for a frame)
+
+        frame.setTitle("Contoso University"); // sets the title to the frame of GUI
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);// pressing X will shut down the program
+
+
+        frame.setSize(420,420); //sets the x and y dimension
+        frame.setResizable(false); //preventing the program to change dimensions of size
+        frame.setVisible(true); // set it to true, this will make our frame visible.
+
+        ImageIcon imageLogo = new ImageIcon("armoCoding.png");
+        frame.setIconImage(imageLogo.getImage());
+        frame.getContentPane().setBackground(new Color(153, 99, 255, 255)); // this changes my background color
+
+
+
+
+
+
+
+
+
 
         Student s1 = new Student("ar1834mo-s","Arber Morina");
         Student s2 = new Student("fi2000mo-s", "Fidaim Morina");
@@ -17,8 +49,8 @@ public class Program {
 
 
 
-        // TODO: 2021-07-05 Nu har jag gjort så att jag idag 5/7 fixade associationsklassen 
-        // TODO: 2021-07-05 detta gjorde jag genom implementera i både writtenexam klass och student klass då associations 
+        // TODO: 2021-07-05 Nu har jag gjort så att jag idag 5/7 fixade associationsklassen
+        // TODO: 2021-07-05 detta gjorde jag genom implementera i både writtenexam klass och student klass då associations
         //klassen är mellan dom två klasserna.
         // TODO: 2021-07-05  skapade linkedList<Result> results; i både written och student.
         // se koden.
@@ -26,13 +58,17 @@ public class Program {
 
 
 
-
-
-
-
-
-
-
-
     }
+
+
+
+
+
+
+
+
+
+
+
+
 }

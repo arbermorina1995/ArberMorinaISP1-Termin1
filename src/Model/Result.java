@@ -1,4 +1,4 @@
-package AllClassesForISP1Project;
+package Model;
 
 public class Result {
 
@@ -15,24 +15,21 @@ public class Result {
     private WrittenExam writtenExam;
 
     //the constructor for this class
-    public Result (double result, String letterGrade){
+    public Result (double result, String letterGrade, Student student, WrittenExam writtenExam){
         this.result = result;
         this.letterGrade= letterGrade;
+        this.student= student;
+        this.writtenExam= writtenExam;
     }
 
 
 
     //getters and setter for these attributes
-    public WrittenExam getWrittenExam() {
-        return writtenExam;
+    public WrittenExam getWrittenExam() { return writtenExam;
     }
 
-    public void setWrittenExam(WrittenExam writtenExam) {
-        this.writtenExam = writtenExam;
+    public void setWrittenExam(WrittenExam writtenExam) { this.writtenExam = writtenExam;
     }
-
-
-
 
     public Student getStudent() {
         return student;
@@ -65,18 +62,6 @@ public class Result {
         this.letterGrade = letterGrade;
 
     }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

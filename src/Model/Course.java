@@ -1,4 +1,6 @@
-package AllClassesForISP1Project;
+package Model;
+
+import Model.WrittenExam;
 
 import java.util.ArrayList;
 

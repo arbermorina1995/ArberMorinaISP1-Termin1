@@ -1,4 +1,4 @@
-package AllClassesForISP1Project;
+package Model;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -12,9 +12,6 @@ public class Student {
     private String name;
 
     //associationclass below
-
-
-
     private LinkedList<Result> results;
 
 
@@ -23,6 +20,7 @@ public class Student {
     public Student (String studentID, String name){
         this.studentID= studentID;
         this.name= name;
+
         this.setResults(new LinkedList<Result>());
     }
 
@@ -61,6 +59,10 @@ public class Student {
         }
 
     }
+
+
+
+
 
     //getters and setters for above attributes and for the many to many association, also for the associationclass
 
@@ -101,12 +103,6 @@ public class Student {
 
         this.name = name;
     }
-
-
-
-
-
-
 
 
 

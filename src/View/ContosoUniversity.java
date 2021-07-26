@@ -6,6 +6,7 @@ public class ContosoUniversity extends  JFrame{
 
 
     private JPanel ContosoLogin;
+    private JPanel panelForLogin;
 
     public ContosoUniversity (String title){
         super(title);
@@ -15,9 +16,6 @@ public class ContosoUniversity extends  JFrame{
         this.setContentPane(ContosoLogin);
         this.pack();
     }
-
-
-
 
 
 }

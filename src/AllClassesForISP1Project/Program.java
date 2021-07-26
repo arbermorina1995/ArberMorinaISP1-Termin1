@@ -2,10 +2,7 @@ package AllClassesForISP1Project;
 import Model.Course;
 import Model.Student;
 import Model.WrittenExam;
-
-import java.awt.Color;
-import javax.swing.ImageIcon;
-import javax.swing.*;
+import View.LoginForm;
 
 public class Program {
 
@@ -14,19 +11,26 @@ public class Program {
 
         //down below is the JFrame which is a GUI window with added components
 
-        JFrame frame = new JFrame(); // this creates our frame --> boilerplate (standard code for a frame)
+        /* JFrame frame = new JFrame(); // this creates our frame --> boilerplate (standard code for a frame)
 
         frame.setTitle("Contoso University"); // sets the title to the frame of GUI
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);// pressing X will shut down the program
 
 
-        frame.setSize(420,420); //sets the x and y dimension
+        frame.setSize(500,500); //sets the x and y dimension
         frame.setResizable(false); //preventing the program to change dimensions of size
         frame.setVisible(true); // set it to true, this will make our frame visible.
 
         ImageIcon imageLogo = new ImageIcon("armoCoding.png");
         frame.setIconImage(imageLogo.getImage());
-        frame.getContentPane().setBackground(new Color(153, 99, 255, 255)); // this changes my background color
+        frame.getContentPane().setBackground(new Color(153, 99, 255, 255)); // this changes my background color */
+
+        LoginForm loginForm = new LoginForm(); // calling an instance of the class loginForm.
+
+
+
+
+
 
 
 

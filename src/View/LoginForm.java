@@ -25,6 +25,8 @@ public class LoginForm extends JFrame {
         label.setText("Välkommen till Contoso University");
         this.add(label);
 
+        getContentPane();
+
 
 
     }

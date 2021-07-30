@@ -1,24 +1,16 @@
 package AllClassesForISP1Project;
-import Model.Course;
-import Model.Student;
-import Model.WrittenExam;
-import View.LoginForm;
+
+
+import View.LoginFrame;
 
 public class Program {
 
 
+    //LoginForm loginForm = new LoginForm(); // calling an instance of the class loginForm.
+
     public static void main (String[] args){
 
-
-        LoginForm loginForm = new LoginForm(); // calling an instance of the class loginForm.
-
-
-
-
-
-
-
-
+        LoginFrame lgFrame = new LoginFrame();
 
 
 
